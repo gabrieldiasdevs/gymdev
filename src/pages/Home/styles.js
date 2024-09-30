@@ -4,10 +4,10 @@ export const Container = styled.div`
   display: flex;
   height: 100vh;
   margin: 0 auto;
-  gap: 60px;
+  margin-top: 30px;
+  gap: 40px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background-color: #FECE00;
   overflow-x: hidden;
 `
@@ -19,7 +19,7 @@ export const SectionLogo = styled.section`
 
 export const Logo = styled.img`
   width: 450px;
-  max-width: 100%;
+  max-width: 90%;
 `
 
 export const SectionDays = styled.div`
@@ -40,4 +40,8 @@ export const Day = styled.button`
   background-color: #0c0c0c;
   color: #fff;
   font-weight: bold;
+
+  a {
+    color: #fff;
+  }
 `

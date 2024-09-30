@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import {
   Container,
   SectionLogo,
@@ -16,12 +18,12 @@ export default function Home() {
       </SectionLogo>
 
       <SectionDays>
-        <Day>Segunda-feira</Day>
-        <Day>Terça-feira</Day>
-        <Day>Quarta-feira</Day>
-        <Day>Quinta-feira</Day>
-        <Day>Sexta-feira</Day>
-        <Day>Sábado</Day>
+        <Day><Link to='/segunda-feira' >Segunda-feira</Link></Day>
+        <Day><Link to='/terca-feira' >Terça-feira</Link></Day>
+        <Day><Link to='/quarta-feira' >Quarta-feira</Link></Day>
+        <Day><Link to='/quinta-feira' >Quinta-feira</Link></Day>
+        <Day><Link to='/sexta-feira' >Sexta-feira</Link></Day>
+        <Day><Link to='/sabado' >Sábado</Link></Day>
       </SectionDays>
     </Container>
   )
