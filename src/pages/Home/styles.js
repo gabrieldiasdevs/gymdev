@@ -39,9 +39,5 @@ export const Day = styled.button`
   box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
   background-color: #0c0c0c;
   color: #fff;
-  font-weight: bold;
-
-  a {
-    color: #fff;
-  }
+  font-weight: 500;
 `

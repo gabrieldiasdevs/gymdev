@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
   }
 
   body {
@@ -20,6 +21,7 @@ const GlobalStyle = createGlobalStyle`
   a {
     cursor: pointer;
     text-decoration: none;
+    color: #fff;
   }
 
   button {
